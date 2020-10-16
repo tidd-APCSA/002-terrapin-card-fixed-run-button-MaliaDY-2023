@@ -29,4 +29,13 @@ public void payGourmet()
     balance -= 4.0;
   }
 }
+
+public void loadMoney(double amount)
+{
+  balance += amount;
+  if(balance >= 150)
+  {
+    balance = 150;
+  }
+}
 }
