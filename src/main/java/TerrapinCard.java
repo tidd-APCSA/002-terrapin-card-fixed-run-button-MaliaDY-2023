@@ -20,6 +20,5 @@ public void payEconomical()
 public void payGourmet()
 {
   balance -= 4.0;
-
 }
 }
