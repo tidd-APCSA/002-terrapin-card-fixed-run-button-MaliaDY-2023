@@ -43,6 +43,10 @@ public void loadMoney(double amount)
   {
     balance = 150;
   }
-  
+}
+
+public double getBalance()
+{
+  return balance;
 }
 }
