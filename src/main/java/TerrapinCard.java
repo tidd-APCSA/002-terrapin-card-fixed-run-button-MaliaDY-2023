@@ -32,10 +32,17 @@ public void payGourmet()
 
 public void loadMoney(double amount)
 {
-  balance += amount;
+  if(amount < 0 )
+  {
+    balance += 0;
+  }else
+  {
+    balance += amount;
+  }
   if(balance >= 150)
   {
     balance = 150;
   }
+  
 }
 }
