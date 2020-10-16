@@ -3,5 +3,10 @@ public class CardRunner {
         // ☕
         System.out.println("hey");
         TerrapinCard card = new TerrapinCard(50);System.out.println(card);
+         card.payEconomical();
+        System.out.println(card); 
+        card.payEconomical();
+        card.payGourmet();
+        System.out.println(card); 
     }
 }
