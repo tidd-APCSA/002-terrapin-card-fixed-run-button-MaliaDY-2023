@@ -14,11 +14,19 @@ public String toString()
 
 public void payEconomical()
 {
-    balance -= 2.5;
+    if(balance < 2.5){
+      balance = balance;
+    }else{
+      balance -= 2.5;
+    }
 }
 
 public void payGourmet()
 {
-  balance -= 4.0;
+  if(balance < 4.0){
+    balance = balance;
+  }else{
+    balance -= 4.0;
+  }
 }
 }
